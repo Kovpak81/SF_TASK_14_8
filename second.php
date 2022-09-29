@@ -125,7 +125,7 @@ if (null !== $monthA || null !== $dayA) {
      let nextBirthDate = new Date(new Date().getFullYear() + 1, month, day);
      let diff = nextBirthDate - new Date();
      
-     let monthC = new Date(diff).getUTCMonth();
+     let monthC = new Date(diff).getUTCMonth() - 1;
      let dayC = new Date(diff).getUTCDate() - 1;
 
      let monthP = document.getElementById('monthP');
