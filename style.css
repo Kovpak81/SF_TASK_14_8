@@ -1,0 +1,89 @@
+form {
+    margin-top: 10px;
+}
+.wrapper {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: aqua;
+}
+.header {
+    height: auto;
+}
+.header>p {
+    font-size: 20px;
+    color: red;
+    margin-top: -30px;
+}
+.header h1 {
+    color: blue;
+    font-size: 80px;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.colomn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+}
+.content p {
+    padding: 1px 50px;
+    margin: 0;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+.content p span {
+    color: darkgreen;
+    font-size: 50px;
+}
+.content h2 {
+    font-size: 40px;
+    color: rgb(97, 8, 241);
+}
+/* оформляю подвал, все просто */
+.footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.footer .links {
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.footer .links > a {
+    padding: 0 50px;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+.laba {
+    width: 600px;
+    height: 450px;
+    padding: 10px 10px;
+}
+.red {
+    color: red;
+}
+.black {
+    color: rgb(14, 14, 14);
+}
+
+
